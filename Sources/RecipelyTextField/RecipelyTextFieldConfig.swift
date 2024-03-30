@@ -9,4 +9,10 @@ import UIKit
 
 public struct RecipelyTextFieldConfig {
     let placeholder: String
+    let image: UIImage?
+
+    public init(placeholder: String, image: UIImage?) {
+        self.placeholder = placeholder
+        self.image = image
+    }
 }
